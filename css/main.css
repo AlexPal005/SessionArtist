@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 600px;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 150px 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 290px 485px 365px;
+    height: 88px;
+}
+#logoBlock{
+    display: flex;
+    padding-top: 3px;
+}
+#logoBlock > img{
+    width: 68px;
+    height: 65px;
+    margin-right: 12px;
+}
+#logoBlock p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: right;
+}
+#blockSearch{
+    padding-top: 13px;
+}
+#blockSearch > input{
+    width: 361px;
+    height: 45px;
+    outline: none;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#blockSearch > input::placeholder{
+    font-size: 16px;
+    color: black;
+}
+#blockSearch > input:focus{
+    border: 2px solid #007163;
+}
+#blockButtonsRegister{
+    padding-top: 13px;
+    margin-left: auto;
+}
+#blockButtonsRegister > button{
+    width: 165px;
+    height: 45px;
+    border: 1px solid #007163;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#blockButtonsRegister button:nth-child(1){
+    background: white;
+    color: #007163;
+    margin-right: 30px;
+}
+#blockButtonsRegister button:nth-child(2){
+    background: #007163;
+    color: white;
+}
