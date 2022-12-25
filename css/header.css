@@ -13,16 +13,16 @@
     grid-template-columns: 289px 491px 360px;
     height: 88px;
 }
-#logoBlock{
+.logoBlock{
     display: flex;
     padding-top: 3px;
 }
-#logoBlock > img{
+.logoBlock > img{
     width: 68px;
     height: 65px;
     margin-right: 12px;
 }
-#logoBlock p{
+.logoBlock p{
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
     font-weight: bold;
