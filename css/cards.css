@@ -10,6 +10,10 @@
 }
 @media screen and (max-width: 400px){
     .cards{
-        overflow-x: hidden;
+        overflow: scroll;
+    }
+    .cards > img{
+        width: 155px;
+        height: 260px;
     }
 }

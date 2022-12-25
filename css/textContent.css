@@ -65,9 +65,28 @@
 
 @media screen and (max-width: 400px){
     #text{
-        width: 320px;
+        width: 237px;
     }
     #text > h1{
         font-size: 28px;
+    }
+    #greenCircle{
+        left: 41px;
+        top: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .textContent {
+        margin-top: 45px;
+    }
+    #yellowCircle{
+        top: 5px;
+        left: 150px;
+        width: 100px;
+        height: 100px;
+    }
+    #buttonsSelect > button{
+        width: 135px;
+        height: 40px;
     }
 }
