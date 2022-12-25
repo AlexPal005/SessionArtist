@@ -8,7 +8,8 @@
     <!--Fav icon-->
     <link rel="shortcut icon" href="Media/favIcon.png" type="image/png">
     <!--Main styles-->
-    <link type = "text/css" rel = "stylesheet" href = "css/main.css">
+    <link type = "text/css" rel = "stylesheet" href = "css/header.css">
+    <link type = "text/css" rel = "stylesheet" href = "css/textContent.css">
    <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
@@ -17,17 +18,33 @@
 </head>
 <body>
 <div class = "wrapper">
+    <!--Header-->
     <div class = "header">
         <div id = "logoBlock">
             <img id = "imgIn" src = "Media/logo.png">
-            <p><span>SESSION</span><br> artist</p>
+            <p>SESSION<br> artist</p>
         </div>
         <div id = "blockSearch">
             <input type = "text" placeholder="Search">
+            <img src ="Media/searchIcon.png">
         </div>
         <div id = "blockButtonsRegister">
             <button>Log in</button>
             <button>Register</button>
+        </div>
+    </div>
+
+   <!--Text content-->
+    <div class = "textContent">
+        <div id = "text">
+            <h1>Session Artists for your<br> dream project.</h1>
+            <p>Select Category</p>
+            <div id = "greenCircle"></div>
+            <div id = "yellowCircle"></div>
+        </div>
+        <div id = "buttonsSelect">
+            <button>Find an srtist</button>
+            <button>Become seller</button>
         </div>
     </div>
 </div>

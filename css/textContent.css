@@ -1,0 +1,64 @@
+.textContent{
+    margin-top: 60px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#text > h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+#text > p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 25px;
+}
+#buttonsSelect{
+    margin: 35px 0 auto;
+}
+#buttonsSelect > button{
+    width: 165px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#buttonsSelect button:nth-child(1){
+    background: rgba(166, 124, 82, 0.1);
+    margin-right: 30px;
+    border: 2px solid #A67C52;
+    color: #A67C52;
+}
+#buttonsSelect button:nth-child(2){
+    background: rgba(0, 113, 99, 0.1);
+    border: 2px solid #007163;
+    color: #007163;
+}
+#text{
+    position: relative;
+    width: 540px;
+    margin: 0 auto;
+}
+
+#greenCircle{
+    width: 200px;
+    height: 200px;
+    background-color: #007163;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    z-index: -1;
+    filter: blur(50px);
+    opacity: 0.2;
+}
+#yellowCircle{
+    width: 200px;
+    height: 200px;
+    background-color: #A67C52;
+    position: absolute;
+    top: 30px;
+    left: 204px;
+    z-index: -1;
+    opacity: 0.2;
+    filter: blur(50px);
+}

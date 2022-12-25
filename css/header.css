@@ -10,7 +10,7 @@
 }
 .header{
     display: grid;
-    grid-template-columns: 290px 485px 365px;
+    grid-template-columns: 289px 491px 360px;
     height: 88px;
 }
 #logoBlock{
@@ -31,14 +31,22 @@
 }
 #blockSearch{
     padding-top: 13px;
+    position: relative;
 }
 #blockSearch > input{
-    width: 361px;
+    width: 341px;
     height: 45px;
     outline: none;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     padding-left: 20px;
+}
+#blockSearch > img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 330px;
+    top: 25px;
 }
 #blockSearch > input::placeholder{
     font-size: 16px;
@@ -52,7 +60,7 @@
     margin-left: auto;
 }
 #blockButtonsRegister > button{
-    width: 165px;
+    width: 163px;
     height: 45px;
     border: 1px solid #007163;
     border-radius: 5px;
