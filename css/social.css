@@ -1,0 +1,22 @@
+.social{
+    margin-top: 100px;
+    width: 100%;
+}
+.social > h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.socialLinksImg{
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-gap: 20px;
+    width: 160px;
+    margin: 30px auto 0;
+
+}
+.socialLinksImg img{
+    width: 40px;
+    height: 40px;
+}

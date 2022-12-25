@@ -1,0 +1,10 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(6 , 165px);
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+.cards > img{
+    width: 165px;
+    height: 277px;
+}
