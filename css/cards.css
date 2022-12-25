@@ -8,7 +8,7 @@
     width: 165px;
     height: 277px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
     .cards{
         overflow-x: hidden;
     }

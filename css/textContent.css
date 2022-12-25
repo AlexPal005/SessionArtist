@@ -63,7 +63,7 @@
     filter: blur(50px);
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
     #text{
         width: 320px;
     }
