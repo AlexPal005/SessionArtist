@@ -75,15 +75,17 @@
         top: 5px;
         width: 100px;
         height: 100px;
+        filter: blur(25px);
     }
     .textContent {
         margin-top: 45px;
     }
     #yellowCircle{
         top: 5px;
-        left: 150px;
+        left: 98px;
         width: 100px;
         height: 100px;
+        filter: blur(25px);
     }
     #buttonsSelect > button{
         width: 135px;
