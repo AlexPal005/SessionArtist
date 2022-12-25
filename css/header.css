@@ -3,7 +3,6 @@
     padding: 0;
 }
 .wrapper{
-    height: 600px;
     width: 1140px;
     margin: 0 auto;
     padding: 20px 150px 0;
@@ -12,6 +11,9 @@
     display: grid;
     grid-template-columns: 289px 491px 360px;
     height: 88px;
+}
+.header > a{
+    display: none;
 }
 .logoBlock{
     display: flex;
@@ -76,4 +78,47 @@
 #blockButtonsRegister button:nth-child(2){
     background: #007163;
     color: white;
+}
+
+@media screen and (max-width: 320px){
+    .wrapper{
+        width: 100%;
+        padding: 15px 0 0;
+    }
+    .header{
+        width: 100%;
+        grid-template-columns: 30% 40% 30%;
+    }
+    .header > a{
+        display: block;
+    }
+    .header > a img{
+        width:20px;
+        height: 20px;
+
+    }
+    .header > a:nth-child(1){
+        padding-top: 17px;
+        padding-left: 15px;
+    }
+    .header > a:nth-child(3){
+        padding-top: 17px;
+        padding-left: 60px;
+    }
+    .logoBlock > img{
+        width: 50px;
+        height: 50px;
+        margin-top: 1px;
+
+    }
+    .logoBlock > p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    #blockSearch{
+        display: none;
+    }
+    #blockButtonsRegister{
+        display: none;
+    }
 }
