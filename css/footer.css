@@ -15,10 +15,10 @@
 .footerLogo{
     margin: 0 auto;
 }
-.footermain{
+.footerMain{
     height: 117px;
 }
-.footermain > p{
+.footerMain > p{
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -26,7 +26,18 @@
     padding-bottom: 15px;
 }
 @media screen and (max-width: 400px){
-    .footermain{
-        overflow-x: hidden;
+    .footerLogo{
+        grid-area: logo;
     }
+    .footerMain{
+        margin-top: 71px;
+    }
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-gap: 0;
+        grid-template-areas: "logo logo";
+
+    }
+
 }
