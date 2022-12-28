@@ -109,9 +109,10 @@ body{
         padding: 15px 15px 0;
     }
     .header{
-        height: 47px;
+        height: 100%;
         width: 100%;
         grid-template-columns: 30% 40% 30%;
+
     }
     .header > a{
         display: initial;
@@ -151,6 +152,14 @@ body{
     }
     #blockButtonsRegister{
         display: none;
+        padding-top: 0;
+        margin-left:77px;
+    }
+    #blockButtonsRegister > button:nth-child(1){
+        margin-top: 30px;
+    }
+    #blockButtonsRegister > button:nth-child(2){
+        margin-top: 20px;
     }
 
 }

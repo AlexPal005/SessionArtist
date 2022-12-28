@@ -18,14 +18,13 @@ $(document).ready(function (){
     let status = false;
     $("#burger").click(function (){
         if(status === false) {
-            let buttonsBlock = "<div>\n" +
-                "            <button>Log in</button>\n" +
-                "            <button>Register</button>\n" +
-                "        </div>";
-            $(".header").append(buttonsBlock)
-
+            $("#blockButtonsRegister").show();
             $(".textContent, .cards, .social, .footerMain").hide();
             status = true;
+        }else{
+            $("#blockButtonsRegister").hide();
+            $(".textContent, .cards, .social, .footerMain").show();
+            status = false;
         }
     });
 });

@@ -80,3 +80,32 @@
     background: #000;
     opacity: 0.5;
 }
+@media screen and (max-width: 400px){
+    #registerPopup{
+        width: 290px;
+        height: 330px;
+    }
+    #loginPopup{
+        width: 290px;
+        height: 275px;
+    }
+    #registerPopup > input, #loginPopup > input {
+        width: 240px;
+    }
+    #registerPopup > div, #loginPopup > div{
+        width: 260px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    #registerPopup > img, #loginPopup > img{
+        left: 255px;
+        top: 14px;
+    }
+    #registerPopup > h1 , #loginPopup > h1{
+        margin-top: 14px;
+    }
+    #registerPopup > button, #loginPopup > button{
+        margin-top: 25px;
+        height: 40px;
+    }
+}
