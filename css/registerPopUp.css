@@ -1,0 +1,80 @@
+#registerPopup {
+    width: 556px;
+    height: 371px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+    z-index: 101;
+    text-align: center;
+}
+
+#registerPopup > h1 , #loginPopup > h1{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#registerPopup > div, #loginPopup > div{
+    width: 496px;
+    border-top: 1px solid #E8E8E8;
+    margin: 15px auto;
+}
+#registerPopup > button, #loginPopup > button{
+    width: 165px;
+    height: 45px;
+    margin-top: 43px;
+    background: #007163;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+#registerPopup > input, #loginPopup > input {
+    width: 476px;
+    height: 45px;
+    margin-top: 10px;
+    opacity: 0.5;
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#registerPopup > input::placeholder, #loginPopup > input::placeholder {
+    font-size: 16px;
+}
+#registerPopup > img, #loginPopup > img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 506px;
+    top: 25px;
+}
+#loginPopup{
+    width: 556px;
+    height: 316px;
+    background: white;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    border-radius: 5px;
+    text-align: center;
+}
+.shadow {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+}

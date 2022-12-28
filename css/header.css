@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    position: relative;
+}
 .wrapper{
     width: 1140px;
     margin: 0 auto;
@@ -78,6 +81,18 @@
 #blockButtonsRegister button:nth-child(2){
     background: #007163;
     color: white;
+}
+#blockButtonsRegister button:nth-child(1):hover{
+    background: #cce8e4;
+}
+#blockButtonsRegister button:nth-child(2):hover{
+    background-color: #4d988f;
+}
+#blockButtonsRegister button:nth-child(1):active{
+    color: black;
+}
+#blockButtonsRegister button:nth-child(2):active{
+    color: black;
 }
 
 @media screen and (max-width: 400px){

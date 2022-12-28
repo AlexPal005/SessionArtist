@@ -6,80 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fav icon-->
     <link rel="shortcut icon" href="media/favIcon.png" type="image/png">
-    <!--Main styles-->
-    <link type = "text/css" rel = "stylesheet" href = "css/header.css">
-    <link type = "text/css" rel = "stylesheet" href = "css/textContent.css">
-    <link type = "text/css" rel = "stylesheet" href = "css/cards.css">
-    <link type = "text/css" rel = "stylesheet" href = "css/social.css">
-    <link type = "text/css" rel = "stylesheet" href = "css/footer.css">
-   <!--Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Main structure styles-->
+    <link type="text/css" rel="stylesheet" href="css/header.css">
+    <link type="text/css" rel="stylesheet" href="css/textContent.css">
+    <link type="text/css" rel="stylesheet" href="css/cards.css">
+    <link type="text/css" rel="stylesheet" href="css/social.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
+    <!-- Popups -->
+    <link type="text/css" rel="stylesheet" href="css/registerPopUp.css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--Js-->
+    <script src="js/popUps.js"></script>
 
     <title>Session Artist</title>
 </head>
 <body>
-<div class = "wrapper">
+<div class="wrapper">
     <!--Header-->
-    <div class = "header">
-        <a><img src = "media/searchIcon.png"></a>
-        <div class = "logoBlock">
-            <img src = "media/logo.png">
+    <div class="header">
+        <a><img src="media/searchIcon.png"></a>
+        <div class="logoBlock">
+            <img src="media/logo.png">
             <p>SESSION<br> artist</p>
         </div>
-        <a><img src = "media/burger.png"></a>
-        <div id = "blockSearch">
-            <input type = "text" placeholder="Search">
-            <img src ="media/searchIcon.png">
+        <a><img src="media/burger.png"></a>
+        <div id="blockSearch">
+            <input type="text" placeholder="Search">
+            <img src="media/searchIcon.png">
         </div>
-        <div id = "blockButtonsRegister">
+        <div id="blockButtonsRegister">
             <button>Log in</button>
             <button>Register</button>
         </div>
     </div>
 
-   <!--Text content-->
-    <div class = "textContent">
-        <div id = "text">
+    <!--Text content-->
+    <div class="textContent">
+        <div id="text">
             <h1>Session Artists for your<br> dream project.</h1>
             <p>Select Category</p>
-            <div id = "greenCircle"></div>
-            <div id = "yellowCircle"></div>
+            <div id="greenCircle"></div>
+            <div id="yellowCircle"></div>
         </div>
-        <div id = "buttonsSelect">
+        <div id="buttonsSelect">
             <button>Find an srtist</button>
             <button>Become seller</button>
         </div>
     </div>
 
     <!--Cards-->
-    <div class = "cards">
-        <img src = "media/img1.png">
-        <img src = "media/img2.png">
-        <img src = "media/img3.png">
-        <img src = "media/img4.png">
-        <img src = "media/img5.png">
-        <img src = "media/img6.png">
+    <div class="cards">
+        <img src="media/img1.png">
+        <img src="media/img2.png">
+        <img src="media/img3.png">
+        <img src="media/img4.png">
+        <img src="media/img5.png">
+        <img src="media/img6.png">
     </div>
 
     <!--Social-->
-    <div class = "social">
+    <div class="social">
         <h1>Social.</h1>
-        <div class = "socialLinksImg">
-            <a href ="https://www.instagram.com/"><img src ="media/instagram.png"></a>
-            <a href ="https://www.facebook.com/"><img src ="media/facebook.png"></a>
-            <a href ="https://twitter.com/"><img src ="media/twitter.png"></a>
+        <div class="socialLinksImg">
+            <a href="https://www.instagram.com/"><img src="media/instagram.png"></a>
+            <a href="https://www.facebook.com/"><img src="media/facebook.png"></a>
+            <a href="https://twitter.com/"><img src="media/twitter.png"></a>
         </div>
     </div>
 
     <!-- Footer-->
-    <div class = "footerMain">
-        <div class = "footer">
+    <div class="footerMain">
+        <div class="footer">
             <p>Mobile App</p>
             <p>Community</p>
             <p>Company</p>
-            <div class = "logoBlock footerLogo">
-                <img src = "media/logo.png">
+            <div class="logoBlock footerLogo">
+                <img src="media/logo.png">
                 <p>SESSION<br> artist</p>
             </div>
             <p>Help desk</p>
@@ -88,6 +96,28 @@
         </div>
         <p>© 2022 Session artist All rights reserved</p>
     </div>
+
+    <!--Register popup-->
+    <div id="registerPopup">
+        <h1>Register</h1>
+        <div></div>
+        <input type="email" placeholder="Enter your email">
+        <input type="text" placeholder="Choose a Username">
+        <input type="password" placeholder="Choose a Password">
+        <button>Join</button>
+        <img src = "media/close.png">
+    </div>
+    <!-- Log in popup -->
+    <div id = "loginPopup">
+        <h1>Log in</h1>
+        <div></div>
+        <input type = "email" placeholder="Enter your email">
+        <input type = "password" placeholder="Choose a Password">
+        <button>Log in</button>
+        <img src = "media/close.png">
+    </div>
+
+    <div class="shadow"></div>
 
 </div>
 
