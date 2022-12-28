@@ -46,12 +46,20 @@ body{
     border-radius: 5px;
     padding-left: 20px;
 }
-#blockSearch > img{
+#blockSearch > img:nth-child(2){
     position: absolute;
     width: 20px;
     height: 20px;
     left: 330px;
     top: 25px;
+}
+#blockSearch > img:nth-child(3){
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 256px;
+    top: 14px;
+    display: none;
 }
 #blockSearch > input::placeholder{
     font-size: 16px;
@@ -97,10 +105,11 @@ body{
 
 @media screen and (max-width: 400px){
     .wrapper{
-        width: 320px;
-        padding: 15px 0 0;
+        width: 290px;
+        padding: 15px 15px 0;
     }
     .header{
+        height: 47px;
         width: 100%;
         grid-template-columns: 30% 40% 30%;
     }
@@ -131,9 +140,17 @@ body{
         line-height: 27px;
     }
     #blockSearch{
+        padding-top: 0;
+        display: none;
+    }
+    #blockSearch > input{
+        width: 268px;
+    }
+    #blockSearch > img:nth-child(2){
         display: none;
     }
     #blockButtonsRegister{
         display: none;
     }
+
 }
