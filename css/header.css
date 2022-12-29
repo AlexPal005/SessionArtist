@@ -15,7 +15,7 @@ body{
     grid-template-columns: 289px 491px 360px;
     height: 88px;
 }
-.header > a{
+.header > img{
     display: none;
 }
 .logoBlock{
@@ -114,21 +114,22 @@ body{
         grid-template-columns: 30% 40% 30%;
 
     }
-    .header > a{
+    .header > img{
         display: initial;
     }
-    .header > a img{
+    .header > img:nth-child(4){
+        display: none;
+    }
+    .header > img{
         width:20px;
         height: 20px;
-
     }
-    .header > a:nth-child(1){
+    .header > img:nth-child(1){
         padding-top: 17px;
-        padding-left: 15px;
     }
-    .header > a:nth-child(3){
+    .header > img:nth-child(3), img:nth-child(4) {
         padding-top: 17px;
-        padding-left: 60px;
+        padding-left: 68px;
     }
     .logoBlock > img{
         width: 50px;
@@ -153,7 +154,7 @@ body{
     #blockButtonsRegister{
         display: none;
         padding-top: 0;
-        margin-left:77px;
+        margin-left: 62px;
     }
     #blockButtonsRegister > button:nth-child(1){
         margin-top: 30px;

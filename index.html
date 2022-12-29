@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="css/cards.css">
     <link type="text/css" rel="stylesheet" href="css/social.css">
     <link type="text/css" rel="stylesheet" href="css/footer.css">
+    <link type="text/css" rel="stylesheet" href="css/section/menu.css">
     <!-- Popups -->
     <link type="text/css" rel="stylesheet" href="css/popUps.css">
     <!--Google font-->
@@ -24,6 +25,7 @@
     <!--Js-->
     <script src="js/popUps.js"></script>
     <script src="js/headerAdaptive.js"></script>
+    <script src="js/openNew.js"></script>
 
     <title>Session Artist</title>
 </head>
@@ -31,16 +33,17 @@
 <div class="wrapper">
     <!--Header-->
     <div class="header headerSmall">
-        <a><img src="media/searchIcon.png"></a>
+        <img src="media/searchIcon.png">
         <div class="logoBlock">
             <img src="media/logo.png">
             <p>SESSION<br> artist</p>
         </div>
-        <a><img src="media/burger.png" id = "burger"></a>
+        <img src="media/burger.png" id="burger">
+        <img src="media/close.png">
         <div id="blockSearch">
             <input type="text" placeholder="Search">
             <img src="media/searchIcon.png">
-            <img src = "media/close.png">
+            <img src="media/close.png">
         </div>
         <div id="blockButtonsRegister">
             <button>Log in</button>
@@ -48,37 +51,39 @@
         </div>
     </div>
 
-    <!--Text content-->
-    <div class="textContent">
-        <div id="text">
-            <h1>Session Artists for your<br> dream project.</h1>
-            <p>Select Category</p>
-            <div id="greenCircle"></div>
-            <div id="yellowCircle"></div>
+    <div class = "content">
+        <!--Text content-->
+        <div class="textContent">
+            <div id="text">
+                <h1>Session Artists for your<br> dream project.</h1>
+                <p>Select Category</p>
+                <div id="greenCircle"></div>
+                <div id="yellowCircle"></div>
+            </div>
+            <div id="buttonsSelect">
+                <button>Find an srtist</button>
+                <button>Become seller</button>
+            </div>
         </div>
-        <div id="buttonsSelect">
-            <button>Find an srtist</button>
-            <button>Become seller</button>
+
+        <!--Cards-->
+        <div class="cards">
+            <img src="media/img1.png">
+            <img src="media/img2.png">
+            <img src="media/img3.png">
+            <img src="media/img4.png">
+            <img src="media/img5.png">
+            <img src="media/img6.png">
         </div>
-    </div>
 
-    <!--Cards-->
-    <div class="cards">
-        <img src="media/img1.png">
-        <img src="media/img2.png">
-        <img src="media/img3.png">
-        <img src="media/img4.png">
-        <img src="media/img5.png">
-        <img src="media/img6.png">
-    </div>
-
-    <!--Social-->
-    <div class="social">
-        <h1>Social.</h1>
-        <div class="socialLinksImg">
-            <a href="https://www.instagram.com/"><img src="media/instagram.png"></a>
-            <a href="https://www.facebook.com/"><img src="media/facebook.png"></a>
-            <a href="https://twitter.com/"><img src="media/twitter.png"></a>
+        <!--Social-->
+        <div class="social">
+            <h1>Social.</h1>
+            <div class="socialLinksImg">
+                <a href="https://www.instagram.com/"><img src="media/instagram.png"></a>
+                <a href="https://www.facebook.com/"><img src="media/facebook.png"></a>
+                <a href="https://twitter.com/"><img src="media/twitter.png"></a>
+            </div>
         </div>
     </div>
 
@@ -107,16 +112,16 @@
         <input type="text" placeholder="Choose a Username">
         <input type="password" placeholder="Choose a Password">
         <button>Join</button>
-        <img src = "media/close.png">
+        <img src="media/close.png">
     </div>
     <!-- Log in popup -->
-    <div id = "loginPopup">
+    <div id="loginPopup">
         <h1>Log in</h1>
         <div></div>
-        <input type = "email" placeholder="Enter your email">
-        <input type = "password" placeholder="Choose a Password">
+        <input type="email" placeholder="Enter your email">
+        <input type="password" placeholder="Choose a Password">
         <button>Log in</button>
-        <img src = "media/close.png">
+        <img src="media/close.png">
     </div>
 
     <div class="shadow"></div>

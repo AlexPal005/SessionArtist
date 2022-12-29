@@ -1,8 +1,8 @@
 $(document).ready(function (){
-    $(".header > a:nth-child(1) > img").click(function(){
+    $(".header > img:nth-child(1)").click(function(){
         $("#blockSearch").show();
         $(".header > .logoBlock").hide();
-        $(".header > a").hide();
+        $(".header > img").hide();
         $(".header").css("display", "block");
         $("#blockSearch > img:nth-child(3)").show();
     });
@@ -10,21 +10,24 @@ $(document).ready(function (){
     $("#blockSearch > img:nth-child(3)").click(function (){
         $("#blockSearch").hide();
         $(".header > .logoBlock").show();
-        $(".header > a").show();
+        $(".header > img").show();
         $(".header").css("display", "grid");
         $("#blockSearch > img:nth-child(3)").hide();
     });
 
-    let status = false;
-    $("#burger").click(function (){
-        if(status === false) {
-            $("#blockButtonsRegister").show();
-            $(".textContent, .cards, .social, .footerMain").hide();
-            status = true;
-        }else{
-            $("#blockButtonsRegister").hide();
-            $(".textContent, .cards, .social, .footerMain").show();
-            status = false;
-        }
+    $("#burger").click(function () {
+        $("#blockButtonsRegister").show();
+        $(".textContent, .cards, .social, .footerMain").hide();
+        $("#burger").hide();
+        $(".header > img:nth-child(4)").show();
     });
+
+    $(".header > img:nth-child(4)").click(function () {
+        $("#blockButtonsRegister").hide();
+        $(".textContent, .cards, .social, .footerMain").show();
+        $(".header > img:nth-child(4)").hide();
+        $("#burger").show();
+    });
+
+
 });
