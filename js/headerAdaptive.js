@@ -1,5 +1,5 @@
 $(document).ready(function (){
-    $(".header > img:nth-child(1)").click(function(){
+    $(".header > img:nth-child(1)").on("click",function(){
         $("#blockSearch").show();
         $(".header > .logoBlock").hide();
         $(".header > img").hide();
