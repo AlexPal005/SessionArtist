@@ -4,7 +4,7 @@
     grid-gap: 30px;
     margin-top: 70px;
 }
-.cards  img{
+.cards img{
     width: 165px;
     height: 277px;
     cursor: pointer;
@@ -13,7 +13,7 @@
     .cards{
         overflow: scroll;
     }
-    .cards > img{
+    .cards img{
         width: 155px;
         height: 260px;
     }
