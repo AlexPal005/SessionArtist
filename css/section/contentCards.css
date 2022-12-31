@@ -1,4 +1,4 @@
-#menuTop > ul li{
+#menuTop > ul li {
     display: inline;
     margin-left: 104px;
     padding-bottom: 13px;
@@ -7,69 +7,82 @@
     font-size: 16px;
     cursor: pointer;
 }
-#menuTop > ul li:hover{
+
+#menuTop > ul li:hover {
     color: #4d988f;
 }
-#menuTop{
+
+#menuTop {
     text-align: center;
     margin-top: 15px;
 }
-.cardsPortret{
+
+.cardsPortret {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-#contentSection > h1{
+
+#contentSection > h1 {
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.card{
+
+.card {
     border: 1px solid #D6D0C1;
     border-radius: 5px;
     padding: 15px;
 }
-.card > h1{
+
+.card > h1 {
     font-size: 20px;
     font-family: sans-serif;
     margin-top: 10px;
 }
-.card > img{
+
+.card > img {
     width: 330px;
     height: 264px;
 }
-.card > div:nth-child(3){
+
+.card > div:nth-child(3) {
     width: 100%;
     border-top: 2px solid #D6D0C1;
     margin-top: 14px;
     margin-bottom: 20px;
 }
-.card > p:nth-child(4){
+
+.card > p:nth-child(4) {
     font-size: 16px;
     font-family: sans-serif;
     font-style: italic;
 }
-.card > div:nth-child(5){
+
+.card > div:nth-child(5) {
     display: grid;
     grid-template-columns: 103px 134px;
     margin-top: 30px;
     padding-left: 39px;
     margin-bottom: 15px;
 }
-.card > div:nth-child(5) > p{
+
+.card > div:nth-child(5) > p {
     font-size: 16px;
     font-family: sans-serif;
     margin-top: auto;
     margin-bottom: auto;
 }
-.card > div:nth-child(5) span{
-    color:#A67C52;
+
+.card > div:nth-child(5) span {
+    color: #A67C52;
     font-weight: bold;
 }
-.card > div:nth-child(5) button{
+
+.card > div:nth-child(5) button {
     width: 134px;
     height: 45px;
     background: #007163;
@@ -81,10 +94,12 @@
     font-weight: bold;
     cursor: pointer;
 }
-.buttonsNextSlider{
+
+.buttonsNextSlider {
     margin-top: 40px;
 }
-.buttonsNextSlider > button{
+
+.buttonsNextSlider > button {
     width: 35px;
     height: 35px;
     margin-right: 12px;
@@ -92,10 +107,43 @@
     border-radius: 2px;
     cursor: pointer;
 }
-.buttonsNextSlider > button:nth-child(2){
+
+.buttonsNextSlider > button:nth-child(2) {
     color: white;
     background: #007163;
 }
-.buttonsNextSlider > button:nth-child(1), button:nth-child(3){
+
+.buttonsNextSlider > button:nth-child(1), button:nth-child(3) {
     border: 1px solid #007163;
+}
+
+@media screen and (max-width: 400px) {
+    .cardsPortret {
+        grid-gap: 0;
+        grid-row-gap: 15px;
+        grid-template-columns: 290px;
+    }
+
+    .card > img {
+        width: 260px;
+        height: 208px;
+    }
+
+    .card > div:nth-child(5) button {
+        width: 120px;
+        height: 40px;
+    }
+
+    .card > div:nth-child(3) {
+        width: 260px;
+    }
+    #menuTop{
+        display: none;
+    }
+    #menuTop > ul li {
+        margin-top: 35px;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

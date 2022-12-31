@@ -10,7 +10,7 @@ $(document).ready(function (){
     $("#blockSearch > img:nth-child(3)").click(function (){
         $("#blockSearch").hide();
         $(".header > .logoBlock").show();
-        $(".header > img").show();
+        $(".header > img:nth-child(1),img:nth-child(3)").show();
         $(".header").css("display", "grid");
         $("#blockSearch > img:nth-child(3)").hide();
     });
@@ -20,6 +20,7 @@ $(document).ready(function (){
         $(".textContent, .cards, .social, .footerMain").hide();
         $("#burger").hide();
         $(".header > img:nth-child(4)").show();
+        $("#menuTop").show();
     });
 
     $(".header > img:nth-child(4)").click(function () {
@@ -27,7 +28,7 @@ $(document).ready(function (){
         $(".textContent, .cards, .social, .footerMain").show();
         $(".header > img:nth-child(4)").hide();
         $("#burger").show();
+        $("#menuTop").hide();
     });
-
 
 });
