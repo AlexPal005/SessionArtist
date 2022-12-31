@@ -1,4 +1,4 @@
-$(document).ready(function () {
+window.onload = () => {
     $("#blockButtonsRegister > button:nth-child(2)").click(function () {
         $("#registerPopup").show();
         $(".shadow").show();
@@ -16,4 +16,4 @@ $(document).ready(function () {
         $(".shadow, #loginPopup").hide();
     });
 
-});
+}

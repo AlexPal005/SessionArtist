@@ -11,9 +11,23 @@ function openBlock(file) {
 
         }
     });
+
 }
 openBlock("html/header.html");
 openBlock("html/footer.html");
 
+jQuery.ajax({
+    url: "html/popUps.html",
+    dataType: "html",
+    success: function (response) {
+        $(".wrapper").append(response);
+    }
+});
+
+$(document).ready(function (){
+    $(".card > div:nth-child(5) button").click(function(){
+        window.location.href = "pageAbout.html";
+    });
+});
 
 

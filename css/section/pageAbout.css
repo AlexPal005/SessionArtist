@@ -1,0 +1,139 @@
+.contentAbout{
+    display: grid;
+    grid-template-columns: 263px 1fr;
+    grid-gap: 29px;
+    margin-top: 30px;
+}
+.wrapper > h1{
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.info > p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+.info > img{
+    height: 210px;
+    margin-bottom: 30px;
+}
+.info > button{
+    width: 263px;
+    height: 45px;
+    background: #007163;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.aboutInfo > ul li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 43px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 17px;
+}
+.line{
+    border-top: 1px solid #D6D0C1;
+    margin-top: 18px;
+}
+#cardAbout{
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+#cardAbout > label > img{
+    width: 15px;
+    height: 11px;
+
+ }
+#cardAbout > p,label > img{
+    margin-right: 12px;
+    margin-left: 21px;
+    margin-top: 13px;
+}
+#cardAbout > p:nth-child(1){
+    color: #A67C52;
+}
+#cardAbout > p, label{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#cardAbout > button{
+    width: 165px;
+    height: 45px;
+    border: 1px solid #007163;
+    color: #007163;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    background: white;
+    margin: 20px;
+}
+.aboutInfo > label{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.aboutInfo > label span{
+    margin-left: 18px;
+}
+#star{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.menInfo{
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 25px 17px;
+}
+.menInfo > div{
+    display: flex;
+}
+.menInfo > div > div:nth-child(1){
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    background: #007163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.menInfo > div > div:nth-child(2){
+    display: flex;
+}
+.starMini{
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+}
+.menInfo > p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.textPhoto > p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.textPhoto > p:nth-child(2){
+    color: #A67C52;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
