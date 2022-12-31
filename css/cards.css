@@ -16,5 +16,6 @@
     .cards img{
         width: 155px;
         height: 260px;
+        grid-gap: 20px;
     }
 }
