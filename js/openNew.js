@@ -1,13 +1,19 @@
-$(document).ready(function(){
-    $(".cards > img:nth-child(1)").click(function(){
-        $(".content").hide();
-        jQuery.ajax({
-            url: "html/section.html",
-            dataType: "html",
-            success: function(response) {
-                $(".content").after(response);
+function openBlock(file) {
+    jQuery.ajax({
+        url: file,
+        dataType: "html",
+        success: function (response) {
+            if (file === "html/header.html") {
+                $(".wrapper").prepend(response);
+            } else  {
+                $(".wrapper").append(response);
             }
-        });
+
+        }
     });
-});
+}
+openBlock("html/header.html");
+openBlock("html/footer.html");
+
+
 
