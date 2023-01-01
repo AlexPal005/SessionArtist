@@ -137,9 +137,11 @@
     .card > div:nth-child(3) {
         width: 260px;
     }
-    #menuTop{
+
+    #menuTop {
         display: none;
     }
+
     #menuTop > ul li {
         margin-top: 35px;
         display: table;

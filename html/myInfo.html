@@ -1,0 +1,65 @@
+<div class = "contentMyInfo">
+    <p>My orders</p>
+    <div class = "contentBlockmyInfo">
+        <div class = "smallCard">
+            <div>1</div>
+            <p>Order Description #1</p>
+            <p>More information</p>
+            <span>10$</span>
+            <p>20.06.2022</p>
+        </div>
+        <div class = "smallCard">
+            <div>2</div>
+            <p>Order Description #2</p>
+            <p>More information</p>
+            <span>10$</span>
+            <p>20.06.2022</p>
+        </div>
+        <div class = "smallCard">
+            <div>3</div>
+            <p>Order Description #3</p>
+            <p>More information</p>
+            <span>10$</span>
+            <p>20.06.2022</p>
+        </div>
+    </div>
+    <p>My services</p>
+    <div class = "contentBlockmyInfo">
+        <div class = "smallCard">
+            <div>1</div>
+            <p>Guitar</p>
+            <p>More information</p>
+            <span>10$</span>
+        </div>
+        <div class = "smallCard">
+            <div>2</div>
+            <p>Piano</p>
+            <p>More information</p>
+            <span>10$</span>
+        </div>
+    </div>
+    <p>Purchased for me</p>
+    <div class = "contentBlockmyInfo">
+        <div class = "smallCard">
+            <div>1</div>
+            <p>Guitar</p>
+            <p>More information</p>
+            <span>10$</span>
+        </div>
+        <div class = "smallCard">
+            <div>2</div>
+            <p>Piano</p>
+            <p>More information</p>
+            <span>10$</span>
+        </div>
+    </div>
+    <button id = "back"> <- Back</button>
+    <script>
+        $("#back").click(()=>{
+            $(".aboutInfo").show();
+            $(".contentMyInfo").hide();
+            $(".info > p,.info > button").show();
+            $(".info > div").css("display","none");
+        });
+    </script>
+</div>
