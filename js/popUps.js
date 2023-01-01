@@ -1,4 +1,4 @@
-window.onload = () => {
+
     $("#blockButtonsRegister > button:nth-child(2)").click(function () {
         $("#registerPopup").show();
         $(".shadow").show();
@@ -15,5 +15,3 @@ window.onload = () => {
     $("#loginPopup > img").click(function () {
         $(".shadow, #loginPopup").hide();
     });
-
-}
