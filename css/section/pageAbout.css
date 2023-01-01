@@ -251,16 +251,21 @@
     .contentAbout {
         grid-template-columns: 1fr;
     }
-
     .info > img {
         height: 232px;
         width: 100%;
     }
-
     .aboutInfo > ul li {
         margin-right: 28px;
     }
     .smallCard{
         display: grid;
+    }
+    #back{
+        left: 20px;
+        top: 80px;
+        border-radius: 50px;
+        width: 80px;
+        height: 40px;
     }
 }
